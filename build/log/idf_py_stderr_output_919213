@@ -1,0 +1,17 @@
+/home/joagz/esp-idf/projects/web-esp32/http/http-commons.c: In function 'generateHttpResponse':
+/home/joagz/esp-idf/projects/web-esp32/http/http-commons.c:13:10: warning: variable 'name' set but not used [-Wunused-but-set-variable]
+   13 |     char name[MAX_NAME];
+      |          ^~~~
+In file included from /home/joagz/esp-idf/components/esp_system/include/esp_task.h:24,
+                 from /home/joagz/esp-idf/components/lwip/port/include/lwipopts.h:20,
+                 from /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+                 from /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+                 from /home/joagz/esp-idf/projects/web-esp32/main/../http/contextholder.h:1,
+                 from /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:11:
+/home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:147:10: error: #error "Missing definition: portYIELD_CORE() must be defined if in portmacro.h if configNUMBER_OF_CORES > 1"
+  147 |         #error "Missing definition: portYIELD_CORE() must be defined if in portmacro.h if configNUMBER_OF_CORES > 1"
+      |          ^~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
