@@ -5,18 +5,6 @@ idf_component_register(SRCS "web-esp32.c"
 spiffs_create_partition_image(storage ../partition FLASH_IN_PROJECT)
 
 
-# Include files from http directory
-set(HTTP_SOURCES
-    "../http/contextholder.c"
-    "../http/filter.c"
-    "../http/http-commons.c"
-    "../http/server.c"
-)
-
-set(HTTP_INCLUDES
-    "../http"
-)
-
 # Include files from wifi directory
 set(WIFI_SOURCES
     "../wifi/wificlient.c"
@@ -32,7 +20,17 @@ set(FILESYS_SOURCES
 set(FILESYS_INCLUDES
     "../filesys"
 )
-target_sources(${COMPONENT_LIB} PRIVATE ${HTTP_SOURCES} ${WIFI_SOURCES} ${FILESYS_SOURCES})
 
-target_include_directories(${COMPONENT_LIB} PRIVATE ${HTTP_INCLUDES} ${WIFI_INCLUDES} ${FILESYS_INCLUDES} )
+set(HTTP_SOURCES
+    "../http/httpserver.c"
+)
+
+set(HTTP_INCLUDES
+    "../http"
+)
+
+
+target_sources(${COMPONENT_LIB} PRIVATE ${WIFI_SOURCES} ${FILESYS_SOURCES} ${HTTP_SOURCES})
+
+target_include_directories(${COMPONENT_LIB} PRIVATE ${WIFI_INCLUDES} ${FILESYS_INCLUDES} ${HTTP_INCLUDES} )
 

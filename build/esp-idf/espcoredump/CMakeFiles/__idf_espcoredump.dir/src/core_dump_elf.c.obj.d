@@ -123,26 +123,6 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj: \
  /home/joagz/esp-idf/components/log/include/esp_log_internal.h \
  /home/joagz/esp-idf/components/esp_system/include/esp_private/panic_internal.h \
  /home/joagz/esp-idf/components/espcoredump/include_core_dump/core_dump_checksum.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
- /home/joagz/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
- /home/joagz/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /home/joagz/esp-idf/components/mbedtls/port/include/sha256_alt.h \
- /home/joagz/esp-idf/components/hal/include/hal/sha_types.h \
- /home/joagz/esp-idf/components/esp_rom/include/esp32/rom/sha.h \
  /home/joagz/esp-idf/components/espcoredump/include_core_dump/port/xtensa/esp_core_dump_port_impl.h \
  /home/joagz/esp-idf/components/espcoredump/include_core_dump/esp_core_dump_types.h \
  /home/joagz/esp-idf/components/espcoredump/include/esp_core_dump.h \
@@ -152,4 +132,9 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj: \
  /home/joagz/esp-idf/components/hal/esp32/include/hal/efuse_hal.h \
  /home/joagz/esp-idf/components/hal/include/hal/efuse_hal.h \
  /home/joagz/esp-idf/components/esp_system/include/esp_task_wdt.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
+ /home/joagz/esp-idf/components/esp_app_format/include/esp_app_desc.h \
  /home/joagz/esp-idf/components/espcoredump/include_core_dump/elf.h

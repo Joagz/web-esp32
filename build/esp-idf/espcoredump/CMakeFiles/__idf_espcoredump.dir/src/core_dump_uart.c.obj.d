@@ -73,30 +73,6 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj: \
  /home/joagz/esp-idf/components/esp_common/include/esp_macros.h \
  /home/joagz/esp-idf/components/esp_common/include/esp_assert.h \
  /home/joagz/esp-idf/components/espcoredump/include_core_dump/core_dump_checksum.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
- /home/joagz/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
- /home/joagz/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_legacy.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_synonyms.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_superset_legacy.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_psa_from_legacy.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_config_key_pair_types.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_adjust_auto_enabled.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_x509.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_adjust_ssl.h \
- /home/joagz/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
- /home/joagz/esp-idf/components/mbedtls/port/include/sha256_alt.h \
- /home/joagz/esp-idf/components/hal/include/hal/sha_types.h \
- /home/joagz/esp-idf/components/esp_rom/include/esp32/rom/sha.h \
  /home/joagz/esp-idf/components/espcoredump/include_core_dump/esp_core_dump_port.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/joagz/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
@@ -134,6 +110,10 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj: \
  /home/joagz/esp-idf/components/esp_system/include/esp_system.h \
  /home/joagz/esp-idf/components/esp_common/include/esp_idf_version.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
  /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/reent.h \
  /home/joagz/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \

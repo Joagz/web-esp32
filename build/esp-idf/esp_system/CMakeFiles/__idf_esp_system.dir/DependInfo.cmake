@@ -20,7 +20,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "ESP_PLATFORM"
-  "IDF_VER=\"v5.3-dev-2815-gbe06a6f5ff-dirty\""
+  "IDF_VER=\"v5.3-dev-2815-gbe06a6f5ff\""
   "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
   "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
   "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
@@ -81,6 +81,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/joagz/esp-idf/components/bootloader_support/include"
   "/home/joagz/esp-idf/components/bootloader_support/bootloader_flash/include"
   "/home/joagz/esp-idf/components/esp_pm/include"
+  "/home/joagz/esp-idf/components/espcoredump/include"
+  "/home/joagz/esp-idf/components/espcoredump/include/port/xtensa"
   "/home/joagz/esp-idf/components/esp_gdbstub/include"
   "/home/joagz/esp-idf/components/esp_app_format/include"
   "/home/joagz/esp-idf/components/vfs/include"

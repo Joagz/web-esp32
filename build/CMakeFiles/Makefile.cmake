@@ -178,6 +178,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/joagz/esp-idf/components/wpa_supplicant/CMakeLists.txt"
   "/home/joagz/esp-idf/components/xtensa/CMakeLists.txt"
   "/home/joagz/esp-idf/components/xtensa/project_include.cmake"
+  "/home/joagz/esp-idf/projects/web-esp32/.git/HEAD"
+  "/home/joagz/esp-idf/projects/web-esp32/.git/refs/heads/master"
   "/home/joagz/esp-idf/projects/web-esp32/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeASMCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"

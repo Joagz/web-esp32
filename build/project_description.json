@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "web-esp32",
-    "project_version":    "v5.3-dev-2815-gbe06a6f5ff-dirty",
+    "project_version":    "85fd696-dirty",
     "project_path":       "/home/joagz/esp-idf/projects/web-esp32",
     "idf_path":           "/home/joagz/esp-idf",
     "build_dir":          "/home/joagz/esp-idf/projects/web-esp32/build",
@@ -11,7 +11,7 @@
     "app_elf":            "web-esp32.elf",
     "app_bin":            "web-esp32.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.3-dev-2815-gbe06a6f5ff-dirty",
+    "git_revision":       "v5.3-dev-2815-gbe06a6f5ff",
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",
@@ -1135,7 +1135,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/joagz/esp-idf/projects/web-esp32/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c", "/home/joagz/esp-idf/projects/web-esp32/http/contextholder.c", "/home/joagz/esp-idf/projects/web-esp32/http/filter.c", "/home/joagz/esp-idf/projects/web-esp32/http/http-commons.c", "/home/joagz/esp-idf/projects/web-esp32/http/server.c", "/home/joagz/esp-idf/projects/web-esp32/wifi/wificlient.c", "/home/joagz/esp-idf/projects/web-esp32/filesys/load_fs.c" ],
+            "sources": [ "/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c", "/home/joagz/esp-idf/projects/web-esp32/wifi/wificlient.c", "/home/joagz/esp-idf/projects/web-esp32/filesys/load_fs.c" ],
             "include_dirs": []
         },
         "mbedtls": {

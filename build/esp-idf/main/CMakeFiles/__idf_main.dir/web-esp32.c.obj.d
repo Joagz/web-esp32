@@ -41,54 +41,6 @@ esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj: \
  /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdbool.h \
  /home/joagz/esp-idf/components/esp_event/include/esp_event_base.h \
  /home/joagz/esp-idf/components/esp_hw_support/include/esp_interface.h \
- /home/joagz/esp-idf/components/spiffs/include/esp_spiffs.h \
- /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/hal.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/corebits.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
- /home/joagz/esp-idf/components/xtensa/include/xt_instr_macros.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
- /home/joagz/esp-idf/components/esp_hw_support/include/spinlock.h \
- /home/joagz/esp-idf/components/esp_hw_support/include/esp_cpu.h \
- /home/joagz/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa_api.h \
- /home/joagz/esp-idf/components/xtensa/include/xtensa_context.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
- /home/joagz/esp-idf/components/xtensa/include/xt_utils.h \
- /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
- /home/joagz/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/joagz/esp-idf/components/esp_common/include/esp_attr.h \
- /home/joagz/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
- /home/joagz/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
- /home/joagz/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
- /home/joagz/esp-idf/components/esp_common/include/esp_macros.h \
- /home/joagz/esp-idf/components/esp_common/include/esp_assert.h \
- /home/joagz/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
- /home/joagz/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/joagz/esp-idf/components/esp_common/include/esp_assert.h \
- /home/joagz/esp-idf/components/soc/esp32/include/soc/interrupts.h \
- /home/joagz/esp-idf/components/soc/esp32/include/soc/reg_base.h \
- /home/joagz/esp-idf/components/newlib/platform_include/esp_newlib.h \
- /home/joagz/esp-idf/components/heap/include/esp_heap_caps.h \
- /home/joagz/esp-idf/components/heap/include/multi_heap.h \
- /home/joagz/esp-idf/components/esp_system/include/esp_system.h \
- /home/joagz/esp-idf/components/esp_common/include/esp_idf_version.h \
- /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
- /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
- /home/joagz/esp-idf/projects/web-esp32/main/../wifi/wificlient.h \
- /home/joagz/esp-idf/projects/web-esp32/main/../http/server.h \
- /home/joagz/esp-idf/projects/web-esp32/main/../http/contextholder.h \
  /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
  /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
  /home/joagz/esp-idf/components/lwip/port/include/lwipopts.h \
@@ -128,9 +80,53 @@ esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj: \
  /home/joagz/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/joagz/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
  /home/joagz/esp-idf/components/xtensa/include/xtensa_config.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/hal.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa_context.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/corebits.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime-frames.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
+ /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
+ /home/joagz/esp-idf/components/xtensa/include/xt_instr_macros.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
+ /home/joagz/esp-idf/components/esp_hw_support/include/spinlock.h \
+ /home/joagz/esp-idf/components/esp_hw_support/include/esp_cpu.h \
+ /home/joagz/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/joagz/esp-idf/components/xtensa/include/xtensa_api.h \
+ /home/joagz/esp-idf/components/xtensa/include/xt_utils.h \
+ /home/joagz/esp-idf/components/xtensa/esp32/include/xtensa/config/extreg.h \
+ /home/joagz/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /home/joagz/esp-idf/components/esp_common/include/esp_attr.h \
+ /home/joagz/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
+ /home/joagz/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
+ /home/joagz/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
+ /home/joagz/esp-idf/components/esp_common/include/esp_macros.h \
+ /home/joagz/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/joagz/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
+ /home/joagz/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/joagz/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/joagz/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /home/joagz/esp-idf/components/soc/esp32/include/soc/reg_base.h \
+ /home/joagz/esp-idf/components/newlib/platform_include/esp_newlib.h \
+ /home/joagz/esp-idf/components/heap/include/esp_heap_caps.h \
+ /home/joagz/esp-idf/components/heap/include/multi_heap.h \
+ /home/joagz/esp-idf/components/esp_system/include/esp_system.h \
+ /home/joagz/esp-idf/components/esp_common/include/esp_idf_version.h \
+ /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portbenchmark.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/limits.h \
+ /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/sys/syslimits.h \
  /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
  /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/reent.h \
  /home/joagz/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h \
@@ -162,4 +158,17 @@ esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj: \
  /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
  /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
  /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /home/joagz/esp-idf/components/lwip/include/lwip/sockets.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/netif.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/stats.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/mem.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/memp.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
+ /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
+ /home/joagz/esp-idf/projects/web-esp32/main/../wifi/wificlient.h \
  /home/joagz/esp-idf/projects/web-esp32/main/../filesys/load_fs.h

@@ -96,6 +96,8 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj: \
  /home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /home/joagz/esp-idf/components/soc/esp32/include/soc/reset_reasons.h \
  /home/joagz/esp-idf/components/esp_app_format/include/esp_app_desc.h \
+ /home/joagz/esp-idf/components/espcoredump/include/esp_core_dump.h \
+ /home/joagz/esp-idf/components/espcoredump/include/port/xtensa/esp_core_dump_summary_port.h \
  /home/joagz/esp-idf/components/hal/include/hal/uart_hal.h \
  /home/joagz/esp-idf/components/hal/esp32/include/hal/uart_ll.h \
  /home/joagz/esp-idf/components/soc/esp32/include/soc/uart_reg.h \

@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 3.16)
 
 set(EXTRA_COMPONENT_DIRS "wifi")
-set(EXTRA_COMPONENT_DIRS "http")
 set(EXTRA_COMPONENT_DIRS "filesys")
+set(EXTRA_COMPONENT_DIRS "http")
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(web-esp32)

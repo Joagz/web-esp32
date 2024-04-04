@@ -187,7 +187,6 @@ web-esp32.elf: esp-idf/esp_hid/libesp_hid.a
 web-esp32.elf: esp-idf/esp_lcd/libesp_lcd.a
 web-esp32.elf: esp-idf/esp_local_ctrl/libesp_local_ctrl.a
 web-esp32.elf: esp-idf/esp_https_server/libesp_https_server.a
-web-esp32.elf: esp-idf/espcoredump/libespcoredump.a
 web-esp32.elf: esp-idf/fatfs/libfatfs.a
 web-esp32.elf: esp-idf/wear_levelling/libwear_levelling.a
 web-esp32.elf: esp-idf/mqtt/libmqtt.a
@@ -260,6 +259,7 @@ web-esp32.elf: esp-idf/tcp_transport/libtcp_transport.a
 web-esp32.elf: esp-idf/esp_http_client/libesp_http_client.a
 web-esp32.elf: esp-idf/esp_http_server/libesp_http_server.a
 web-esp32.elf: esp-idf/esp_https_ota/libesp_https_ota.a
+web-esp32.elf: esp-idf/espcoredump/libespcoredump.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
@@ -333,6 +333,7 @@ web-esp32.elf: esp-idf/tcp_transport/libtcp_transport.a
 web-esp32.elf: esp-idf/esp_http_client/libesp_http_client.a
 web-esp32.elf: esp-idf/esp_http_server/libesp_http_server.a
 web-esp32.elf: esp-idf/esp_https_ota/libesp_https_ota.a
+web-esp32.elf: esp-idf/espcoredump/libespcoredump.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
@@ -406,6 +407,7 @@ web-esp32.elf: esp-idf/tcp_transport/libtcp_transport.a
 web-esp32.elf: esp-idf/esp_http_client/libesp_http_client.a
 web-esp32.elf: esp-idf/esp_http_server/libesp_http_server.a
 web-esp32.elf: esp-idf/esp_https_ota/libesp_https_ota.a
+web-esp32.elf: esp-idf/espcoredump/libespcoredump.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
@@ -479,6 +481,7 @@ web-esp32.elf: esp-idf/tcp_transport/libtcp_transport.a
 web-esp32.elf: esp-idf/esp_http_client/libesp_http_client.a
 web-esp32.elf: esp-idf/esp_http_server/libesp_http_server.a
 web-esp32.elf: esp-idf/esp_https_ota/libesp_https_ota.a
+web-esp32.elf: esp-idf/espcoredump/libespcoredump.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a
@@ -552,6 +555,7 @@ web-esp32.elf: esp-idf/tcp_transport/libtcp_transport.a
 web-esp32.elf: esp-idf/esp_http_client/libesp_http_client.a
 web-esp32.elf: esp-idf/esp_http_server/libesp_http_server.a
 web-esp32.elf: esp-idf/esp_https_ota/libesp_https_ota.a
+web-esp32.elf: esp-idf/espcoredump/libespcoredump.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
 web-esp32.elf: esp-idf/mbedtls/mbedtls/library/libmbedx509.a

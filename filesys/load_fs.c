@@ -8,7 +8,7 @@ esp_err_t load_fs(){
     esp_vfs_spiffs_conf_t config = {
         .base_path = "/storage",
         .partition_label = NULL,
-        .max_files = 5,
+        .max_files = 50,
         .format_if_mount_failed = true // use carefully
     };
 

@@ -9,10 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/joagz/esp-idf/projects/web-esp32/filesys/load_fs.c" "esp-idf/main/CMakeFiles/__idf_main.dir/__/filesys/load_fs.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/__/filesys/load_fs.c.obj.d"
-  "/home/joagz/esp-idf/projects/web-esp32/http/contextholder.c" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/contextholder.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/contextholder.c.obj.d"
-  "/home/joagz/esp-idf/projects/web-esp32/http/filter.c" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/filter.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/filter.c.obj.d"
-  "/home/joagz/esp-idf/projects/web-esp32/http/http-commons.c" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/http-commons.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/http-commons.c.obj.d"
-  "/home/joagz/esp-idf/projects/web-esp32/http/server.c" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/server.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/__/http/server.c.obj.d"
   "/home/joagz/esp-idf/projects/web-esp32/wifi/wificlient.c" "esp-idf/main/CMakeFiles/__idf_main.dir/__/wifi/wificlient.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/__/wifi/wificlient.c.obj.d"
   "/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c" "esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj.d"
   )

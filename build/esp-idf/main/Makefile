@@ -241,102 +241,6 @@ __/filesys/load_fs.c.s:
 	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/filesys/load_fs.c.s
 .PHONY : __/filesys/load_fs.c.s
 
-__/http/contextholder.obj: __/http/contextholder.c.obj
-.PHONY : __/http/contextholder.obj
-
-# target to build an object file
-__/http/contextholder.c.obj:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/contextholder.c.obj
-.PHONY : __/http/contextholder.c.obj
-
-__/http/contextholder.i: __/http/contextholder.c.i
-.PHONY : __/http/contextholder.i
-
-# target to preprocess a source file
-__/http/contextholder.c.i:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/contextholder.c.i
-.PHONY : __/http/contextholder.c.i
-
-__/http/contextholder.s: __/http/contextholder.c.s
-.PHONY : __/http/contextholder.s
-
-# target to generate assembly for a file
-__/http/contextholder.c.s:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/contextholder.c.s
-.PHONY : __/http/contextholder.c.s
-
-__/http/filter.obj: __/http/filter.c.obj
-.PHONY : __/http/filter.obj
-
-# target to build an object file
-__/http/filter.c.obj:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/filter.c.obj
-.PHONY : __/http/filter.c.obj
-
-__/http/filter.i: __/http/filter.c.i
-.PHONY : __/http/filter.i
-
-# target to preprocess a source file
-__/http/filter.c.i:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/filter.c.i
-.PHONY : __/http/filter.c.i
-
-__/http/filter.s: __/http/filter.c.s
-.PHONY : __/http/filter.s
-
-# target to generate assembly for a file
-__/http/filter.c.s:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/filter.c.s
-.PHONY : __/http/filter.c.s
-
-__/http/http-commons.obj: __/http/http-commons.c.obj
-.PHONY : __/http/http-commons.obj
-
-# target to build an object file
-__/http/http-commons.c.obj:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/http-commons.c.obj
-.PHONY : __/http/http-commons.c.obj
-
-__/http/http-commons.i: __/http/http-commons.c.i
-.PHONY : __/http/http-commons.i
-
-# target to preprocess a source file
-__/http/http-commons.c.i:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/http-commons.c.i
-.PHONY : __/http/http-commons.c.i
-
-__/http/http-commons.s: __/http/http-commons.c.s
-.PHONY : __/http/http-commons.s
-
-# target to generate assembly for a file
-__/http/http-commons.c.s:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/http-commons.c.s
-.PHONY : __/http/http-commons.c.s
-
-__/http/server.obj: __/http/server.c.obj
-.PHONY : __/http/server.obj
-
-# target to build an object file
-__/http/server.c.obj:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/server.c.obj
-.PHONY : __/http/server.c.obj
-
-__/http/server.i: __/http/server.c.i
-.PHONY : __/http/server.i
-
-# target to preprocess a source file
-__/http/server.c.i:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/server.c.i
-.PHONY : __/http/server.c.i
-
-__/http/server.s: __/http/server.c.s
-.PHONY : __/http/server.s
-
-# target to generate assembly for a file
-__/http/server.c.s:
-	cd /home/joagz/esp-idf/projects/web-esp32/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/__/http/server.c.s
-.PHONY : __/http/server.c.s
-
 __/wifi/wificlient.obj: __/wifi/wificlient.c.obj
 .PHONY : __/wifi/wificlient.obj
 
@@ -404,18 +308,6 @@ help:
 	@echo "... __/filesys/load_fs.obj"
 	@echo "... __/filesys/load_fs.i"
 	@echo "... __/filesys/load_fs.s"
-	@echo "... __/http/contextholder.obj"
-	@echo "... __/http/contextholder.i"
-	@echo "... __/http/contextholder.s"
-	@echo "... __/http/filter.obj"
-	@echo "... __/http/filter.i"
-	@echo "... __/http/filter.s"
-	@echo "... __/http/http-commons.obj"
-	@echo "... __/http/http-commons.i"
-	@echo "... __/http/http-commons.s"
-	@echo "... __/http/server.obj"
-	@echo "... __/http/server.i"
-	@echo "... __/http/server.s"
 	@echo "... __/wifi/wificlient.obj"
 	@echo "... __/wifi/wificlient.i"
 	@echo "... __/wifi/wificlient.s"
