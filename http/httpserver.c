@@ -51,6 +51,8 @@ void start_server() {
     check(status, "listen");
 
     while(1) {
+        char * url, method, file;
+        int k=0, j=0;
         struct sockaddr_in client_address;
         bzero(&client_address, sizeof(client_address));
 
@@ -67,8 +69,36 @@ void start_server() {
 
         check(read(client, BUF, 1024), "read");
 
+        while(BUF[j] != ' ') {
+            method[k] = BUF[j];
+            j++;k++;
+        }; // handle type of req
+        
+        k=0;
+        j++;
+        while(BUF[j] != ' ') {
+            url[k] = BUF[j];            
+            j++; k++;
+        }; // handle req url
+
+        void (*fn)(void) = 0x00;
+
+        for(int i = 0; i <= mapping_index; i++)
+        {
+            if(strcmp(mappings[i].url, url) == 0)
+            {
+                fn = mappings[i].handler;
+                file = mappings[i].file;
+            }
+        }
+
+        if(fn==0x00) continue; // no handler for method, could return 404
+        else handler();
+
+        char * url = strcat("/storage/", file);
+
         FILE * fp;
-        fp = fopen("/storage/index.html", "r");
+        fp = fopen(url, "r");
 
         if(fp == NULL) {
             perror("fopen");

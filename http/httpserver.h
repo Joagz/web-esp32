@@ -4,7 +4,8 @@
 
 struct mapping {
     char * url;
-    char * fileL;
+    char * file;
+    void (*handler)(void);
 };
 
 void start_server();
