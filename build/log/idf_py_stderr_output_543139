@@ -1,0 +1,39 @@
+CMake Error at /home/joagz/esp-idf/tools/cmake/component.cmake:225 (message):
+  CMake Warning (dev) at build_properties.temp.cmake:8:
+
+    Syntax Warning in cmake code at column 106
+
+  
+
+    Argument not separated from preceding token by whitespace.
+
+  Call Stack (most recent call first):
+
+    /home/joagz/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:3 (include)
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+  
+
+  CMake Error at
+  /home/joagz/esp-idf/projects/web-esp32/main/CMakeLists.txt:4
+  (add_compile_definitions):
+
+    Unknown CMake command "add_compile_definitions".
+
+  Call Stack (most recent call first):
+
+    /home/joagz/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:107 (include)
+    /home/joagz/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:127 (__component_get_requirements)
+
+  
+
+  
+
+Call Stack (most recent call first):
+  /home/joagz/esp-idf/tools/cmake/build.cmake:586 (__component_get_requirements)
+  /home/joagz/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:12 (project)
+
+
+make: *** [Makefile:2048: cmake_check_build_system] Error 1

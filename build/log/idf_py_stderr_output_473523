@@ -1,0 +1,13 @@
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c: In function 'createServerTask':
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:34:16: error: too many arguments to function 'xTaskCreate'
+   34 |     int temp = xTaskCreate(
+      |                ^~~~~~~~~~~
+In file included from /home/joagz/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:12:
+/home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:16: note: declared here
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                ^~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

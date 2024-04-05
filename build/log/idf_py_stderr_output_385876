@@ -1,0 +1,23 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400deb8b: task_wdt_timeout_handling at /home/joagz/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400def50: task_wdt_isr at /home/joagz/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400831e5: _xt_lowint1 at /home/joagz/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4000bfed: _xtos_set_intlevel in ROM
+0x4008a087: vPortClearInterruptMaskFromISR at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:564
+ (inlined by) vPortExitCritical at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:504
+0x4008598b: phy_exit_critical at /home/joagz/esp-idf/components/esp_phy/src/phy_init.c:177
+0x401595c5: phy_wakeup_init at /home/cff/gittree/chip7.1_phy/chip_7.1/board_code/app_test/pp/phy/phy_chip_v7.c:3734
+0x40126cb0: esp_phy_enable at /home/joagz/esp-idf/components/esp_phy/src/phy_init.c:259
+0x40157885: esp_phy_enable_wrapper at /home/joagz/esp-idf/components/esp_wifi/esp32/esp_adapter.c:584
+0x4009089d: wifi_rf_phy_enable at ??:?
+0x40093e96: pm_dream at ??:?
+0x400944b1: pm_tbtt_process at ??:?
+0x40155df2: hal_mac_rx_read_rxdscrlast at ??:?
+0x40155e59: pp_timer_do_process at ??:?
+0x40091e62: ppTask at ??:?
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

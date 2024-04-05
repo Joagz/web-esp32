@@ -1,0 +1,29 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7d18: start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:79
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d7d15: start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:79
+0x400d788e: app_main at /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:30
+0x40157adf: main_task at /home/joagz/esp-idf/components/freertos/app_startup.c:208
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7d18: start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:79
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x400d7d15: start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:79
+0x400d788e: app_main at /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:30
+0x40157adf: main_task at /home/joagz/esp-idf/components/freertos/app_startup.c:208
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

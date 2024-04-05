@@ -1,0 +1,25 @@
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c: In function 'app_main':
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:23:5: error: unknown type name 'webespconfig'; use 'struct' keyword to refer to the type
+   23 |     webespconfig config = {
+      |     ^~~~~~~~~~~~
+      |     struct 
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:24:9: error: field name not in record or union initializer
+   24 |         .wifi_config=wifi_config
+      |         ^
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:24:9: note: (near initialization for 'config')
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:24:22: error: incompatible types when initializing type 'int' using type 'wifi_config_t'
+   24 |         .wifi_config=wifi_config
+      |                      ^~~~~~~~~~~
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:27:19: error: incompatible type for argument 1 of 'startWebESPApp'
+   27 |    startWebESPApp(config);
+      |                   ^~~~~~
+      |                   |
+      |                   int
+In file included from /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:2:
+/home/joagz/esp-idf/projects/web-esp32/main/../webesp/webesp32.h:7:41: note: expected 'struct webespconfig' but argument is of type 'int'
+    7 | void startWebESPApp(struct webespconfig config);
+      |                     ~~~~~~~~~~~~~~~~~~~~^~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

@@ -1,0 +1,53 @@
+In file included from /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:1:
+/home/joagz/esp-idf/projects/web-esp32/main/../webesp/webesp32.h:3:12: error: expected identifier or '(' before '[' token
+    3 |     uint8_t[32] wifi_ssid;
+      |            ^
+In file included from /home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:1:
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.h:3:12: error: expected identifier or '(' before '[' token
+    3 |     uint8_t[32] wifi_ssid;
+      |            ^
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.h:4:12: error: expected identifier or '(' before '[' token
+    4 |     uint8_t[64] wifi_pwd;
+      |            ^
+/home/joagz/esp-idf/projects/web-esp32/main/../webesp/webesp32.h:4:12: error: expected identifier or '(' before '[' token
+    4 |     uint8_t[64] wifi_pwd;
+      |            ^
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.h:5:1: warning: no semicolon at end of struct or union
+    5 | };
+      | ^
+/home/joagz/esp-idf/projects/web-esp32/main/../webesp/webesp32.h:5:1: warning: no semicolon at end of struct or union
+    5 | };
+      | ^
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:4:6: error: 'struct webespconfig' has no member named 'wifi_ssid'
+    4 |     .wifi_ssid = "",
+      |      ^~~~~~~~~
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:4:18: warning: excess elements in struct initializer
+    4 |     .wifi_ssid = "",
+      |                  ^~
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:4:18: note: (near initialization for 'config')
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:5:6: error: 'struct webespconfig' has no member named 'wifi_pwd'
+    5 |     .wifi_pwd = ""
+      |      ^~~~~~~~
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:5:17: warning: excess elements in struct initializer
+    5 |     .wifi_pwd = ""
+      |                 ^~
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:5:17: note: (near initialization for 'config')
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:8:1: error: expected ',' or ';' before 'void'
+    8 | void app_main(void)
+      | ^~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c: In function 'startWebESPApp':
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:57:27: error: 'struct webespconfig' has no member named 'wifi_ssid'
+   57 |             .ssid = config.wifi_ssid,
+      |                           ^
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:58:31: error: 'struct webespconfig' has no member named 'wifi_pwd'
+   58 |             .password = config.wifi_pwd,
+      |                               ^
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:53:41: error: parameter 'config' set but not used [-Werror=unused-but-set-parameter]
+   53 | void startWebESPApp(struct webespconfig config)
+      |                     ~~~~~~~~~~~~~~~~~~~~^~~~~~
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:132: esp-idf/main/CMakeFiles/__idf_main.dir/__/webesp/webesp32.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

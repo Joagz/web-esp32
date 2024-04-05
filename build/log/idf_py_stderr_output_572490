@@ -1,0 +1,9 @@
+CMake Error at /home/joagz/esp-idf/tools/cmake/project.cmake:465 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  /home/joagz/esp-idf/projects/web-esp32/http
+Call Stack (most recent call first):
+  /home/joagz/esp-idf/tools/cmake/project.cmake:549 (__project_init)
+  CMakeLists.txt:12 (project)
+
+
+make: *** [Makefile:2048: cmake_check_build_system] Error 1

@@ -1,0 +1,9 @@
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c: In function 'startWebESPApp':
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:58:22: warning: initialization of 'unsigned char' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   58 |             .ssid = {config.wifi_ssid},
+      |                      ^~~~~~
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:58:22: note: (near initialization for 'wifi_config.sta.ssid[0]')
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:59:26: warning: initialization of 'unsigned char' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
+   59 |             .password = {config.wifi_pwd},
+      |                          ^~~~~~
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:59:26: note: (near initialization for 'wifi_config.sta.password[0]')

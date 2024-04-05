@@ -1,0 +1,8 @@
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:1:10: fatal error: init.h: No such file or directory
+    1 | #include "init.h"
+      |          ^~~~~~~~
+compilation terminated.
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:132: esp-idf/main/CMakeFiles/__idf_main.dir/__/webesp/webesp32.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

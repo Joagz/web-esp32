@@ -1,0 +1,129 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081a12: panic_abort at /home/joagz/esp-idf/components/esp_system/panic.c:463
+0x400891d9: esp_system_abort at /home/joagz/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40090b05: __assert_func at /home/joagz/esp-idf/components/newlib/assert.c:81
+0x4008eaf2: remove_free_block at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:330 (discriminator 1)
+ (inlined by) block_locate_free at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x4008e4a1: multi_heap_malloc_impl at /home/joagz/esp-idf/components/heap/multi_heap.c:211
+0x40082095: heap_caps_malloc_base at /home/joagz/esp-idf/components/heap/heap_caps.c:179
+0x400820f0: heap_caps_malloc at /home/joagz/esp-idf/components/heap/heap_caps.c:202
+0x40082125: heap_caps_malloc_default at /home/joagz/esp-idf/components/heap/heap_caps.c:228
+0x40090b15: malloc at /home/joagz/esp-idf/components/newlib/heap.c:24
+0x400d50c0: pthread_setspecific at /home/joagz/esp-idf/components/pthread/pthread_local_storage.c:229
+0x400f394a: sys_thread_sem_init at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:534
+0x400f3961: sys_thread_sem_get at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:495
+0x400f3b03: netconn_apimsg at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:128
+0x400f3b99: netconn_new_with_proto_and_callback at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:161
+0x400e3ced: lwip_socket at /home/joagz/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d7d6f: socket at /home/joagz/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:47
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081a12: panic_abort at /home/joagz/esp-idf/components/esp_system/panic.c:463
+0x400891d9: esp_system_abort at /home/joagz/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008a0d2: vApplicationStackOverflowHook at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4008b3fb: vTaskSwitchContext at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3667 (discriminator 7)
+0x4008a1dc: _frxt_dispatch at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4008a18e: _frxt_int_exit at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081a12: panic_abort at /home/joagz/esp-idf/components/esp_system/panic.c:463
+0x400891d9: esp_system_abort at /home/joagz/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40090b05: __assert_func at /home/joagz/esp-idf/components/newlib/assert.c:81
+0x4008eaf2: remove_free_block at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:330 (discriminator 1)
+ (inlined by) block_locate_free at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x4008e4a1: multi_heap_malloc_impl at /home/joagz/esp-idf/components/heap/multi_heap.c:211
+0x40082095: heap_caps_malloc_base at /home/joagz/esp-idf/components/heap/heap_caps.c:179
+0x400820f0: heap_caps_malloc at /home/joagz/esp-idf/components/heap/heap_caps.c:202
+0x40082125: heap_caps_malloc_default at /home/joagz/esp-idf/components/heap/heap_caps.c:228
+0x40090b15: malloc at /home/joagz/esp-idf/components/newlib/heap.c:24
+0x400d50c0: pthread_setspecific at /home/joagz/esp-idf/components/pthread/pthread_local_storage.c:229
+0x400f394a: sys_thread_sem_init at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:534
+0x400f3961: sys_thread_sem_get at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:495
+0x400f3b03: netconn_apimsg at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:128
+0x400f3b99: netconn_new_with_proto_and_callback at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:161
+0x400e3ced: lwip_socket at /home/joagz/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d7d6f: socket at /home/joagz/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:47
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081a12: panic_abort at /home/joagz/esp-idf/components/esp_system/panic.c:463
+0x400891d9: esp_system_abort at /home/joagz/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40090b05: __assert_func at /home/joagz/esp-idf/components/newlib/assert.c:81
+0x4008eaf2: remove_free_block at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:330 (discriminator 1)
+ (inlined by) block_locate_free at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x4008e4a1: multi_heap_malloc_impl at /home/joagz/esp-idf/components/heap/multi_heap.c:211
+0x40082095: heap_caps_malloc_base at /home/joagz/esp-idf/components/heap/heap_caps.c:179
+0x400820f0: heap_caps_malloc at /home/joagz/esp-idf/components/heap/heap_caps.c:202
+0x40082125: heap_caps_malloc_default at /home/joagz/esp-idf/components/heap/heap_caps.c:228
+0x40090b15: malloc at /home/joagz/esp-idf/components/newlib/heap.c:24
+0x400d50c0: pthread_setspecific at /home/joagz/esp-idf/components/pthread/pthread_local_storage.c:229
+0x400f394a: sys_thread_sem_init at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:534
+0x400f3961: sys_thread_sem_get at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:495
+0x400f3b03: netconn_apimsg at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:128
+0x400f3b99: netconn_new_with_proto_and_callback at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:161
+0x400e3ced: lwip_socket at /home/joagz/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d7d6f: socket at /home/joagz/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:47
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081a12: panic_abort at /home/joagz/esp-idf/components/esp_system/panic.c:463
+0x400891d9: esp_system_abort at /home/joagz/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40090b05: __assert_func at /home/joagz/esp-idf/components/newlib/assert.c:81
+0x4008eaf2: remove_free_block at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:330 (discriminator 1)
+ (inlined by) block_locate_free at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x4008e4a1: multi_heap_malloc_impl at /home/joagz/esp-idf/components/heap/multi_heap.c:211
+0x40082095: heap_caps_malloc_base at /home/joagz/esp-idf/components/heap/heap_caps.c:179
+0x400820f0: heap_caps_malloc at /home/joagz/esp-idf/components/heap/heap_caps.c:202
+0x40082125: heap_caps_malloc_default at /home/joagz/esp-idf/components/heap/heap_caps.c:228
+0x40090b15: malloc at /home/joagz/esp-idf/components/newlib/heap.c:24
+0x400d50c0: pthread_setspecific at /home/joagz/esp-idf/components/pthread/pthread_local_storage.c:229
+0x400f394a: sys_thread_sem_init at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:534
+0x400f3961: sys_thread_sem_get at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:495
+0x400f3b03: netconn_apimsg at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:128
+0x400f3b99: netconn_new_with_proto_and_callback at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:161
+0x400e3ced: lwip_socket at /home/joagz/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d7d6f: socket at /home/joagz/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:47
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081a12: panic_abort at /home/joagz/esp-idf/components/esp_system/panic.c:463
+0x400891d9: esp_system_abort at /home/joagz/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40090b05: __assert_func at /home/joagz/esp-idf/components/newlib/assert.c:81
+0x4008eaf2: remove_free_block at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:330 (discriminator 1)
+ (inlined by) block_locate_free at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:567 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/joagz/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x4008e4a1: multi_heap_malloc_impl at /home/joagz/esp-idf/components/heap/multi_heap.c:211
+0x40082095: heap_caps_malloc_base at /home/joagz/esp-idf/components/heap/heap_caps.c:179
+0x400820f0: heap_caps_malloc at /home/joagz/esp-idf/components/heap/heap_caps.c:202
+0x40082125: heap_caps_malloc_default at /home/joagz/esp-idf/components/heap/heap_caps.c:228
+0x40090b15: malloc at /home/joagz/esp-idf/components/newlib/heap.c:24
+0x400d50c0: pthread_setspecific at /home/joagz/esp-idf/components/pthread/pthread_local_storage.c:229
+0x400f394a: sys_thread_sem_init at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:534
+0x400f3961: sys_thread_sem_get at /home/joagz/esp-idf/components/lwip/port/freertos/sys_arch.c:495
+0x400f3b03: netconn_apimsg at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:128
+0x400f3b99: netconn_new_with_proto_and_callback at /home/joagz/esp-idf/components/lwip/lwip/src/api/api_lib.c:161
+0x400e3ced: lwip_socket at /home/joagz/esp-idf/components/lwip/lwip/src/api/sockets.c:1720 (discriminator 4)
+0x400d7d6f: socket at /home/joagz/esp-idf/components/lwip/include/lwip/sockets.h:48
+ (inlined by) start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:47
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

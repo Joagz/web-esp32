@@ -1,0 +1,131 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (30) boot: ESP-IDF v5.3-dev-2815-gbe06a6f5ff 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Apr  4 2024 17:12:19[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v1.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot:  3 storage          Unknown data     01 82 00110000 00100000[0m
+[0;32mI (100) boot:  4 coredump         Unknown data     01 03 00210000 00010000[0m
+[0;32mI (107) boot: End of partition table[0m
+[0;32mI (112) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2344ch (144460) map[0m
+[0;32mI (170) esp_image: segment 1: paddr=00033474 vaddr=3ffb0000 size=03d14h ( 15636) load[0m
+[0;32mI (176) esp_image: segment 2: paddr=00037190 vaddr=40080000 size=08e88h ( 36488) load[0m
+[0;32mI (190) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=89cc8h (564424) map[0m
+[0;32mI (384) esp_image: segment 4: paddr=000c9cf0 vaddr=40088e88 size=0da70h ( 55920) load[0m
+[0;32mI (417) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (418) boot: Disabling RNG early entropy source...[0m
+[0;32mI (429) cpu_start: Multicore app[0m
+[0;32mI (438) cpu_start: Pro cpu start user code[0m
+[0;32mI (438) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (438) app_init: Application information:[0m
+[0;32mI (441) app_init: Project name:     web-esp32[0m
+[0;32mI (446) app_init: App version:      8e5b377-dirty[0m
+[0;32mI (451) app_init: Compile time:     Apr  4 2024 17:12:31[0m
+[0;32mI (457) app_init: ELF file SHA256:  d71baa975...[0m
+[0;32mI (463) app_init: ESP-IDF:          v5.3-dev-2815-gbe06a6f5ff[0m
+[0;32mI (469) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (474) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (479) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (484) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (491) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (497) heap_init: At 3FFB7EE8 len 00028118 (160 KiB): DRAM[0m
+[0;32mI (503) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (510) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (516) heap_init: At 400968F8 len 00009708 (37 KiB): IRAM[0m
+[0;32mI (524) spi_flash: detected chip: generic[0m
+[0;32mI (527) spi_flash: flash io: dio[0m
+[0;32mI (532) main_task: Started on CPU0[0m
+[0;32mI (542) main_task: Calling app_main()[0m
+[0;32mI (662) FileSystem: Partition size: total 956561, used 1255[0m
+I (722) wifi:wifi driver task: 3ffc42c0, prio:23, stack:6656, core=0
+I (742) wifi:wifi firmware version: ca0708907
+I (742) wifi:wifi certification version: v7.0
+I (742) wifi:config NVS flash: enabled
+I (742) wifi:config nano formating: disabled
+I (752) wifi:Init data frame dynamic rx buffer num: 32
+I (752) wifi:Init static rx mgmt buffer num: 5
+I (762) wifi:Init management short buffer num: 32
+I (762) wifi:Init dynamic tx buffer num: 32
+I (762) wifi:Init static rx buffer size: 1600
+I (772) wifi:Init static rx buffer num: 10
+I (772) wifi:Init dynamic rx buffer num: 32
+[0;32mI (782) wifi_init: rx ba win: 6[0m
+[0;32mI (782) wifi_init: accept mbox: 6[0m
+[0;32mI (782) wifi_init: tcpip mbox: 32[0m
+[0;32mI (792) wifi_init: udp mbox: 6[0m
+[0;32mI (792) wifi_init: tcp mbox: 6[0m
+[0;32mI (792) wifi_init: tcp tx win: 5760[0m
+[0;32mI (802) wifi_init: tcp rx win: 5760[0m
+[0;32mI (802) wifi_init: tcp mss: 1440[0m
+[0;32mI (812) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (812) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (822) phy_init: phy_version 4791,2c4672b,Dec 20 2023,16:06:06[0m
+I (902) wifi:mode : sta (80:7d:3a:83:f6:ec)
+I (902) wifi:enable tsf
+[0;32mI (902) WIFI: STA initialization complete[0m
+[0;32mI (902) WIFI: Connecting to AP...[0m
+I (912) wifi:new:<3,0>, old:<1,0>, ap:<255,255>, sta:<3,0>, prof:1
+I (922) wifi:state: init -> auth (b0)
+I (922) wifi:state: auth -> assoc (0)
+I (922) wifi:state: assoc -> run (10)
+I (952) wifi:connected with Flia Premet, aid = 20, channel 3, BW20, bssid = 20:65:8e:d7:31:10
+I (962) wifi:security: WPA2-PSK, phy: bgn, rssi: -50
+I (962) wifi:pm start, type: 1
+
+I (962) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (1012) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (3972) esp_netif_handlers: sta ip: 192.168.100.205, mask: 255.255.255.0, gw: 192.168.100.1[0m
+[0;32mI (3972) WIFI: STA IP: 192.168.100.205[0m
+[0;32mI (3972) WIFI: Connected to ap[0m
+I (5442) wifi:<ba-add>idx:0 (ifx:0, 20:65:8e:d7:31:10), tid:0, ssn:2991, winSize:64
+client connected 
+GET / HTTP/1.1
+Host: 192.168.100.205
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+
+
+Method: GET	Url: /	mapping_length: 1
+Looking for mappings...
+Mapping found!
+Found mapping in 0
+FILE: /storage/index.html
+Hi from home!
+client connected 
+GET /css/styles.css HTTP/1.1
+Host: 192.168.100.205
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://192.168.100.205/
+Accept-Encoding: gzip, deflate
+Accept-Language: es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+
+
+Method: GET	Url: /css/styles.css	mapping_length: 1
+Looking for mappings...
+Mapping not found!

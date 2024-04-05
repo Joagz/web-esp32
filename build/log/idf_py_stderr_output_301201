@@ -1,0 +1,14 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400dea1b: task_wdt_timeout_handling at /home/joagz/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400dede0: task_wdt_isr at /home/joagz/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x400831e5: _xt_lowint1 at /home/joagz/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4015120c: mystrcmp at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:37
+0x400d7e23: start_server at /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:119
+0x400d78dc: app_main at /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:43
+0x40157c0b: main_task at /home/joagz/esp-idf/components/freertos/app_startup.c:208
+0x40089ce5: vPortTaskWrapper at /home/joagz/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

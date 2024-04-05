@@ -1,0 +1,4 @@
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c: In function 'app_main':
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:38:17: warning: assignment to 'char *' from incompatible pointer type 'void (*)()' [-Wincompatible-pointer-types]
+   38 |     home.method = &handleHome;
+      |                 ^

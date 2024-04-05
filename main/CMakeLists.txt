@@ -2,35 +2,43 @@ idf_component_register(SRCS "web-esp32.c"
                        INCLUDE_DIRS ""
                        REQUIRES)
 
-spiffs_create_partition_image(storage ../partition FLASH_IN_PROJECT)
+spiffs_create_partition_image(storage ../resources FLASH_IN_PROJECT)
 
 
 # Include files from wifi directory
 set(WIFI_SOURCES
-    "../wifi/wificlient.c"
+    "../webesp/wifi/wificlient.c"
 )
 set(WIFI_INCLUDES
-    "../wifi"
+    "../webesp/wifi"
 )
 
 set(FILESYS_SOURCES
-    "../filesys/load_fs.c"
+    "../webesp/filesys/load_fs.c"
 )
 
 set(FILESYS_INCLUDES
-    "../filesys"
+    "../webesp/filesys"
 )
 
 set(HTTP_SOURCES
-    "../http/httpserver.c"
+    "../webesp/http/httpserver.c"
 )
 
 set(HTTP_INCLUDES
-    "../http"
+    "../webesp/http"
 )
 
+set(WEBESP32_SOURCES
+    "../webesp/webesp32.c"
+)
 
-target_sources(${COMPONENT_LIB} PRIVATE ${WIFI_SOURCES} ${FILESYS_SOURCES} ${HTTP_SOURCES})
+set(WEBESP32_INCLUDES
+    "../webesp"
+)
 
-target_include_directories(${COMPONENT_LIB} PRIVATE ${WIFI_INCLUDES} ${FILESYS_INCLUDES} ${HTTP_INCLUDES} )
+target_sources(${COMPONENT_LIB} PRIVATE ${WIFI_SOURCES} ${FILESYS_SOURCES} ${HTTP_SOURCES} ${WEBESP32_SOURCES})
+
+target_include_directories(${COMPONENT_LIB} PRIVATE ${WIFI_INCLUDES} ${FILESYS_INCLUDES} ${HTTP_INCLUDES}
+    ${WEBESP32_INCLUDES})
 

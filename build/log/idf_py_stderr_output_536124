@@ -1,0 +1,13 @@
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:3: warning: "WIFI_SSID" redefined
+    3 | #define WIFI_SSID "Flia Premet"
+      | 
+In file included from /home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:1:
+/home/joagz/esp-idf/projects/web-esp32/main/../webesp/webesp32.h:2: note: this is the location of the previous definition
+    2 |     #define WIFI_SSID 0x00
+      | 
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:4: warning: "WIFI_PASSWORD" redefined
+    4 | #define WIFI_PASSWORD "eljoaqui"
+      | 
+/home/joagz/esp-idf/projects/web-esp32/main/../webesp/webesp32.h:6: note: this is the location of the previous definition
+    6 |     #define WIFI_PASSWORD 0x00
+      | 

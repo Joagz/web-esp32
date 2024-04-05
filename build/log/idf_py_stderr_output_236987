@@ -1,0 +1,13 @@
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c: In function 'start_server':
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:91:22: error: assignment to expression with array type
+   91 |                 file = mappings[i].file;
+      |                      ^
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:98:13: error: assignment to expression with array type
+   98 |         url = strcat("/storage/", file);
+      |             ^
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:54:24: warning: variable 'method' set but not used [-Wunused-but-set-variable]
+   54 |         char url[255], method[8], file[128];
+      |                        ^~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:118: esp-idf/main/CMakeFiles/__idf_main.dir/__/http/httpserver.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

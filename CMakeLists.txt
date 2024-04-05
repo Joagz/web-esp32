@@ -4,9 +4,9 @@
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.16)
 
-set(EXTRA_COMPONENT_DIRS "wifi")
-set(EXTRA_COMPONENT_DIRS "filesys")
-set(EXTRA_COMPONENT_DIRS "http")
+set(EXTRA_COMPONENT_DIRS "./webesp/wifi")
+set(EXTRA_COMPONENT_DIRS "./webesp/filesys")
+set(EXTRA_COMPONENT_DIRS "./webesp/http")
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(web-esp32)

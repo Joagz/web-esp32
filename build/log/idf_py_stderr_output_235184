@@ -1,0 +1,17 @@
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c: In function 'start_server':
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:73:19: error: 'method' may be used uninitialized [-Werror=maybe-uninitialized]
+   73 |             method[k] = BUF[j];
+      |                   ^
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:54:21: note: 'method' was declared here
+   54 |         char *url, *method, *file;
+      |                     ^~~~~~
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:88:16: error: 'url' may be used uninitialized [-Werror=maybe-uninitialized]
+   88 |             if(strcmp(mappings[i].url, url) == 0)
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:54:15: note: 'url' was declared here
+   54 |         char *url, *method, *file;
+      |               ^~~
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:118: esp-idf/main/CMakeFiles/__idf_main.dir/__/http/httpserver.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

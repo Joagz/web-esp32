@@ -1,0 +1,36 @@
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c: In function 'start_server':
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:73:19: error: subscripted value is neither array nor pointer nor vector
+   73 |             method[k] = BUF[j];
+      |                   ^
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:91:22: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   91 |                 file = mappings[i].file;
+      |                      ^
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:96:14: error: implicit declaration of function 'handler' [-Werror=implicit-function-declaration]
+   96 |         else handler();
+      |              ^~~~~~~
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:98:16: error: redeclaration of 'url' with no linkage
+   98 |         char * url = strcat("/storage/", file);
+      |                ^~~
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:54:16: note: previous declaration of 'url' with type 'char *'
+   54 |         char * url, method, file;
+      |                ^~~
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:98:42: warning: passing argument 2 of 'strcat' makes pointer from integer without a cast [-Wint-conversion]
+   98 |         char * url = strcat("/storage/", file);
+      |                                          ^~~~
+      |                                          |
+      |                                          char
+In file included from /home/joagz/esp-idf/components/lwip/port/include/lwipopts.h:12,
+                 from /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+                 from /home/joagz/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+                 from /home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:2:
+/home/joagz/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240305/xtensa-esp-elf/xtensa-esp-elf/include/string.h:34:36: note: expected 'const char * restrict' but argument is of type 'char'
+   34 | char    *strcat (char *__restrict, const char *__restrict);
+      |                                    ^
+/home/joagz/esp-idf/projects/web-esp32/http/httpserver.c:54:21: warning: variable 'method' set but not used [-Wunused-but-set-variable]
+   54 |         char * url, method, file;
+      |                     ^~~~~~
+cc1: some warnings being treated as errors
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:118: esp-idf/main/CMakeFiles/__idf_main.dir/__/http/httpserver.c.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2370: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2

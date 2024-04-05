@@ -1,0 +1,7 @@
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c: In function 'startWebESPApp':
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:58:22: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   58 |             .ssid = {(uint8_t) config.wifi_ssid},
+      |                      ^
+/home/joagz/esp-idf/projects/web-esp32/webesp/webesp32.c:59:26: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   59 |             .password = {(uint8_t) config.wifi_pwd},
+      |                          ^

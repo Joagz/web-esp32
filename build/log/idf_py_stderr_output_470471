@@ -1,0 +1,9 @@
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c: In function 'createServerTask':
+/home/joagz/esp-idf/projects/web-esp32/main/web-esp32.c:31:16: error: implicit declaration of function 'xTaskCreate' [-Werror=implicit-function-declaration]
+   31 |     int temp = xTaskCreate(
+      |                ^~~~~~~~~~~
+cc1: some warnings being treated as errors
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/web-esp32.c.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:5484: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2370: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2
